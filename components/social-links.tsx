@@ -37,7 +37,7 @@ const socialLinks = [
   },
   {
     name: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/company/martians-gaming-guild/",
     icon: Linkedin,
     color: "from-blue-600 to-blue-800",
     isExternal: true,
