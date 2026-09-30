@@ -23,7 +23,7 @@ export default function Navbar() {
     <header className="nav-wrap">
       <nav className="nav container">
         <a className="brand" href="#home" aria-label="Martians home">
-          <img src="/MGGLOGO.png" alt="Martians Gaming Guild" className="brand-logo" />
+          <img src="/MGGLOGO-white.png" alt="Martians Gaming Guild" className="brand-logo" />
         </a>
         <button className="menu" aria-label="Toggle menu" onClick={() => setMenuOpen(!menuOpen)}>☰</button>
         <div className={`links ${menuOpen ? 'links-open' : ''}`}>
