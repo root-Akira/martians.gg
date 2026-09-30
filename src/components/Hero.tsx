@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 
 function useCountUp(target: number, duration = 2500) {
   const [count, setCount] = useState(0)
@@ -54,7 +55,7 @@ export default function Hero() {
           <p>Building the next generation of competitive gaming.</p>
           <div className="actions">
             <a className="btn btn-red" href="#tournaments">Explore Tournaments <span>→</span></a>
-            <a className="btn btn-dark" href="#contact"><span className="pulse-dot"></span> Join Our Community</a>
+            <Link className="btn btn-dark" to="/community"><span className="pulse-dot"></span> Join Our Community</Link>
           </div>
           <div className="stats">
             <Stat value={300} suffix="+" label="Gamers" />

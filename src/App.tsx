@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import GameStrip from './components/GameStrip'
@@ -12,8 +13,10 @@ import News from './components/News'
 import Gallery from './components/Gallery'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CommunityPage from './community/CommunityPage'
+import './community/community.css'
 
-export default function App() {
+function Home() {
   return (
     <div>
       <Navbar />
@@ -32,5 +35,15 @@ export default function App() {
       </main>
       <Footer />
     </div>
+  )
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/community" element={<CommunityPage />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   )
 }
