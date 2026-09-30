@@ -54,7 +54,7 @@ export default function Hero() {
           <p>Building the next generation of competitive gaming.</p>
           <div className="actions">
             <a className="btn btn-red" href="#tournaments">Explore Tournaments <span>→</span></a>
-            <a className="btn btn-dark" href="#contact">◉ &nbsp; Join Our Community</a>
+            <a className="btn btn-dark" href="#contact"><span className="pulse-dot"></span> Join Our Community</a>
           </div>
           <div className="stats">
             <Stat value={300} suffix="+" label="Gamers" />
