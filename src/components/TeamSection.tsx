@@ -15,12 +15,12 @@ const InstagramIcon = () => (
 )
 
 const teamMembers = [
-  { name: "RAJENDRA MOHARANA", role: "FOUNDER & CEO", image: "", linkedin: "#", instagram: "#" },
-  { name: "ALEX CHEN", role: "OPERATIONS LEAD", image: "", linkedin: "#", instagram: "#" },
-  { name: "PRIYA SHARMA", role: "CREATIVE LEAD", image: "", linkedin: "#", instagram: "#" },
-  { name: "ARJUN PATEL", role: "COMMUNITY LEAD", image: "", linkedin: "#", instagram: "#" },
-  { name: "VIKRAM SINGH", role: "EVENTS DIRECTOR", image: "", linkedin: "#", instagram: "#" },
-  { name: "ANANYA REDDY", role: "PARTNERSHIPS LEAD", image: "", linkedin: "#", instagram: "#" }
+  { name: "DHANU HANSDA", role: "CO-FOUNDER", image: "", linkedin: "#", instagram: "#" },
+  { name: "ASHISH TUDU", role: "CO-FOUNDER", image: "", linkedin: "#", instagram: "#" },
+  { name: "ABHI MITRA", role: "DIRECTOR & STRATEGIC ADVISER", image: "", linkedin: "#", instagram: "#" },
+  { name: "SUDHIR TIWARI", role: "FINANCE & OPERATIONS DIRECTOR", image: "", linkedin: "#", instagram: "#" },
+  { name: "SUNNY SINGH", role: "CEO", image: "", linkedin: "#", instagram: "#" },
+  { name: "CHETAN SINGH", role: "CMO & COMMUNITY LEAD", image: "", linkedin: "#", instagram: "#" }
 ]
 
 function TeamCard({ member, index }: { member: typeof teamMembers[0]; index: number }) {
