@@ -5,7 +5,7 @@ import GameStrip from './components/GameStrip'
 import Tournament from './components/Tournament'
 import About from './components/About'
 import Mission from './components/Mission'
-import Teams from './components/Teams'
+import TeamSection from './components/TeamSection'
 import Events from './components/Events'
 import Partners from './components/Partners'
 import News from './components/News'
@@ -23,7 +23,7 @@ export default function App() {
         <Tournament />
         <About />
         <Mission />
-        <Teams />
+        <TeamSection />
         <Events />
         <Partners />
         <News />
