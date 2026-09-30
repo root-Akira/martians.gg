@@ -43,7 +43,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="hero">
-      <video ref={videoRef} className="hero-video" autoPlay loop muted playsInline preload="auto" crossOrigin="anonymous" defaultMuted disablePictureInPicture disableRemotePlayback>
+      <video ref={videoRef} className="hero-video" autoPlay loop muted playsInline preload="auto" disablePictureInPicture>
         <source src="/hero-video.mp4" type="video/mp4" />
       </video>
       <div className="hero-shade"></div>
