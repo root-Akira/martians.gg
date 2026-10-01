@@ -6,6 +6,9 @@ export default function Navbar() {
 
   const links = ['home','tournaments','about','teams','events','partners','news','gallery','contact']
 
+  // display labels where they differ from the anchor id
+  const labels: Record<string, string> = { events: 'Services' }
+
   useEffect(() => {
     const sections = document.querySelectorAll('main section[id]')
     const observer = new IntersectionObserver(entries => {
@@ -29,7 +32,7 @@ export default function Navbar() {
         <div className={`links ${menuOpen ? 'links-open' : ''}`}>
           {links.map(l => (
             <a key={l} className={`nav-link ${activeLink === l ? 'active' : ''}`} href={`#${l}`} onClick={() => setMenuOpen(false)}>
-              {l.charAt(0).toUpperCase() + l.slice(1)}
+              {labels[l] ?? l.charAt(0).toUpperCase() + l.slice(1)}
             </a>
           ))}
         </div>

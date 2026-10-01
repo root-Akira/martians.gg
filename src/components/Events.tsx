@@ -2,7 +2,7 @@ export default function Events() {
   return (
     <section id="events" className="section events-bg">
       <div className="container">
-        <span className="kicker">EVENTS & SERVICES</span>
+        <span className="kicker">SERVICES</span>
         <h2>WE BUILD <em>EPIC</em> GAMING EVENTS.</h2>
         <p className="lead">From college tournaments to large-scale esports festivals, Martians handles the experience end-to-end.</p>
         <div className="service-grid">

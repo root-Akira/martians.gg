@@ -4,7 +4,7 @@ const exploreLinks = [
   { label: 'About', href: '#about' },
   { label: 'Tournaments', href: '#tournaments' },
   { label: 'Teams', href: '#teams' },
-  { label: 'Events', href: '#events' },
+  { label: 'Services', href: '#events' },
   { label: 'Gallery', href: '#gallery' }
 ]
 
